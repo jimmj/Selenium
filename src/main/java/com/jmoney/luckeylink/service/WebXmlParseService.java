@@ -60,9 +60,9 @@ public class WebXmlParseService {
 	}
 	
 	public static void AppointFirefoxDriver(){
-		File file = new File(ConfigUtil.getProperty("webdriver.profile", Constants.CONFIG_COMMON));
- 	    FirefoxProfile profile = new FirefoxProfile(file);        
- 	    driver = new FirefoxDriver(profile);
+//		File file = new File(ConfigUtil.getProperty("webdriver.profile", Constants.CONFIG_COMMON));
+// 	    FirefoxProfile profile = new FirefoxProfile(file);        
+ 	    driver = new FirefoxDriver();
 // 	    driver .manage().window().maximize();//全屏
 	}
 	
